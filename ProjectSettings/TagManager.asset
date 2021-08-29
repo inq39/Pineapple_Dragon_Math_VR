@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Dice_C
+  - Dice_D
+  - Dice_I
+  - Dice_L
+  - Dice_M
+  - Dice_V
+  - Dice_X
   layers:
   - Default
   - TransparentFX
@@ -12,7 +19,7 @@ TagManager:
   - Water
   - UI
   - Dice
-  - 
+  - Pineapple
   - 
   - 
   - 

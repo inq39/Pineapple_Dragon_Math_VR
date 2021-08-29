@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 2031782031298256542}
   m_Layer: 6
   m_Name: Dice_V
-  m_TagString: Untagged
+  m_TagString: Dice_V
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

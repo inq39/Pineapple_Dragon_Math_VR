@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5599746793095974572}
   - component: {fileID: 5599746793095974562}
   - component: {fileID: 5599746793095974573}
+  - component: {fileID: 6976688326758443872}
   m_Layer: 0
   m_Name: Dice_Socket_Interactor
   m_TagString: Untagged
@@ -94,6 +95,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &6976688326758443872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5599746793095974575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f854592cb8cd2da45a8cb83839f82093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5599746793994165529
 GameObject:
   m_ObjectHideFlags: 0

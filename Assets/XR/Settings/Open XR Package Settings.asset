@@ -952,7 +952,7 @@ MonoBehaviour:
   - {fileID: 777080984263328409}
   - {fileID: 8474606813913060218}
   - {fileID: -1379005547850009286}
-  m_renderMode: 0
+  m_renderMode: 1
   m_depthSubmissionMode: 0
 --- !u!114 &-1724456231467577359
 MonoBehaviour:
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef793c31862a37448e907829482ef80, type: 3}
   m_Name: OculusQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.oculusquest

@@ -1,129 +1,371 @@
 fileFormatVersion: 2
 guid: 6172752a48ed6d44588bb059875d781a
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Island 01
-    100002: Island 02
-    100004: Island 03
-    100006: Island 04
-    100008: Island 05
-    100010: Island 06
-    100012: Island 07
-    100014: Island 08
-    100016: Island 09
-    100018: Island 10
-    100020: Island 11
-    100022: Island 12
-    100024: Island 13
-    100026: Island 14
-    100028: Island 15
-    100030: Island 16
-    100032: Island 17
-    100034: Island 18
-    100036: Island 19
-    100038: Island 20
-    100040: Island 21
-    100042: Island 22
-    100044: //RootNode
-    100046: Water Level
-    400000: Island 01
-    400002: Island 02
-    400004: Island 03
-    400006: Island 04
-    400008: Island 05
-    400010: Island 06
-    400012: Island 07
-    400014: Island 08
-    400016: Island 09
-    400018: Island 10
-    400020: Island 11
-    400022: Island 12
-    400024: Island 13
-    400026: Island 14
-    400028: Island 15
-    400030: Island 16
-    400032: Island 17
-    400034: Island 18
-    400036: Island 19
-    400038: Island 20
-    400040: Island 21
-    400042: Island 22
-    400044: //RootNode
-    400046: Water Level
-    2100000: No Name
-    2100002: Sand
-    2100004: Grass
-    2100006: Rock
-    2300000: Island 01
-    2300002: Island 02
-    2300004: Island 03
-    2300006: Island 04
-    2300008: Island 05
-    2300010: Island 06
-    2300012: Island 07
-    2300014: Island 08
-    2300016: Island 09
-    2300018: Island 10
-    2300020: Island 11
-    2300022: Island 12
-    2300024: Island 13
-    2300026: Island 14
-    2300028: Island 15
-    2300030: Island 16
-    2300032: Island 17
-    2300034: Island 18
-    2300036: Island 19
-    2300038: Island 20
-    2300040: Island 21
-    2300042: Island 22
-    2300044: Water Level
-    3300000: Island 01
-    3300002: Island 02
-    3300004: Island 03
-    3300006: Island 04
-    3300008: Island 05
-    3300010: Island 06
-    3300012: Island 07
-    3300014: Island 08
-    3300016: Island 09
-    3300018: Island 10
-    3300020: Island 11
-    3300022: Island 12
-    3300024: Island 13
-    3300026: Island 14
-    3300028: Island 15
-    3300030: Island 16
-    3300032: Island 17
-    3300034: Island 18
-    3300036: Island 19
-    3300038: Island 20
-    3300040: Island 21
-    3300042: Island 22
-    3300044: Water Level
-    4300000: Island 01
-    4300002: Island 02
-    4300004: Island 03
-    4300006: Island 04
-    4300008: Island 05
-    4300010: Island 06
-    4300012: Island 07
-    4300014: Island 08
-    4300016: Island 09
-    4300018: Island 10
-    4300020: Island 11
-    4300022: Island 12
-    4300024: Island 13
-    4300026: Island 14
-    4300028: Island 15
-    4300030: Island 16
-    4300032: Island 17
-    4300034: Island 18
-    4300036: Island 19
-    4300038: Island 20
-    4300040: Water Level
-    4300042: Island 21
-    4300044: Island 22
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Island 01
+  - first:
+      1: 100002
+    second: Island 02
+  - first:
+      1: 100004
+    second: Island 03
+  - first:
+      1: 100006
+    second: Island 04
+  - first:
+      1: 100008
+    second: Island 05
+  - first:
+      1: 100010
+    second: Island 06
+  - first:
+      1: 100012
+    second: Island 07
+  - first:
+      1: 100014
+    second: Island 08
+  - first:
+      1: 100016
+    second: Island 09
+  - first:
+      1: 100018
+    second: Island 10
+  - first:
+      1: 100020
+    second: Island 11
+  - first:
+      1: 100022
+    second: Island 12
+  - first:
+      1: 100024
+    second: Island 13
+  - first:
+      1: 100026
+    second: Island 14
+  - first:
+      1: 100028
+    second: Island 15
+  - first:
+      1: 100030
+    second: Island 16
+  - first:
+      1: 100032
+    second: Island 17
+  - first:
+      1: 100034
+    second: Island 18
+  - first:
+      1: 100036
+    second: Island 19
+  - first:
+      1: 100038
+    second: Island 20
+  - first:
+      1: 100040
+    second: Island 21
+  - first:
+      1: 100042
+    second: Island 22
+  - first:
+      1: 100044
+    second: //RootNode
+  - first:
+      1: 100046
+    second: Water Level
+  - first:
+      4: 400000
+    second: Island 01
+  - first:
+      4: 400002
+    second: Island 02
+  - first:
+      4: 400004
+    second: Island 03
+  - first:
+      4: 400006
+    second: Island 04
+  - first:
+      4: 400008
+    second: Island 05
+  - first:
+      4: 400010
+    second: Island 06
+  - first:
+      4: 400012
+    second: Island 07
+  - first:
+      4: 400014
+    second: Island 08
+  - first:
+      4: 400016
+    second: Island 09
+  - first:
+      4: 400018
+    second: Island 10
+  - first:
+      4: 400020
+    second: Island 11
+  - first:
+      4: 400022
+    second: Island 12
+  - first:
+      4: 400024
+    second: Island 13
+  - first:
+      4: 400026
+    second: Island 14
+  - first:
+      4: 400028
+    second: Island 15
+  - first:
+      4: 400030
+    second: Island 16
+  - first:
+      4: 400032
+    second: Island 17
+  - first:
+      4: 400034
+    second: Island 18
+  - first:
+      4: 400036
+    second: Island 19
+  - first:
+      4: 400038
+    second: Island 20
+  - first:
+      4: 400040
+    second: Island 21
+  - first:
+      4: 400042
+    second: Island 22
+  - first:
+      4: 400044
+    second: //RootNode
+  - first:
+      4: 400046
+    second: Water Level
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      21: 2100002
+    second: Sand
+  - first:
+      21: 2100004
+    second: Grass
+  - first:
+      21: 2100006
+    second: Rock
+  - first:
+      23: 2300000
+    second: Island 01
+  - first:
+      23: 2300002
+    second: Island 02
+  - first:
+      23: 2300004
+    second: Island 03
+  - first:
+      23: 2300006
+    second: Island 04
+  - first:
+      23: 2300008
+    second: Island 05
+  - first:
+      23: 2300010
+    second: Island 06
+  - first:
+      23: 2300012
+    second: Island 07
+  - first:
+      23: 2300014
+    second: Island 08
+  - first:
+      23: 2300016
+    second: Island 09
+  - first:
+      23: 2300018
+    second: Island 10
+  - first:
+      23: 2300020
+    second: Island 11
+  - first:
+      23: 2300022
+    second: Island 12
+  - first:
+      23: 2300024
+    second: Island 13
+  - first:
+      23: 2300026
+    second: Island 14
+  - first:
+      23: 2300028
+    second: Island 15
+  - first:
+      23: 2300030
+    second: Island 16
+  - first:
+      23: 2300032
+    second: Island 17
+  - first:
+      23: 2300034
+    second: Island 18
+  - first:
+      23: 2300036
+    second: Island 19
+  - first:
+      23: 2300038
+    second: Island 20
+  - first:
+      23: 2300040
+    second: Island 21
+  - first:
+      23: 2300042
+    second: Island 22
+  - first:
+      23: 2300044
+    second: Water Level
+  - first:
+      33: 3300000
+    second: Island 01
+  - first:
+      33: 3300002
+    second: Island 02
+  - first:
+      33: 3300004
+    second: Island 03
+  - first:
+      33: 3300006
+    second: Island 04
+  - first:
+      33: 3300008
+    second: Island 05
+  - first:
+      33: 3300010
+    second: Island 06
+  - first:
+      33: 3300012
+    second: Island 07
+  - first:
+      33: 3300014
+    second: Island 08
+  - first:
+      33: 3300016
+    second: Island 09
+  - first:
+      33: 3300018
+    second: Island 10
+  - first:
+      33: 3300020
+    second: Island 11
+  - first:
+      33: 3300022
+    second: Island 12
+  - first:
+      33: 3300024
+    second: Island 13
+  - first:
+      33: 3300026
+    second: Island 14
+  - first:
+      33: 3300028
+    second: Island 15
+  - first:
+      33: 3300030
+    second: Island 16
+  - first:
+      33: 3300032
+    second: Island 17
+  - first:
+      33: 3300034
+    second: Island 18
+  - first:
+      33: 3300036
+    second: Island 19
+  - first:
+      33: 3300038
+    second: Island 20
+  - first:
+      33: 3300040
+    second: Island 21
+  - first:
+      33: 3300042
+    second: Island 22
+  - first:
+      33: 3300044
+    second: Water Level
+  - first:
+      43: 4300000
+    second: Island 01
+  - first:
+      43: 4300002
+    second: Island 02
+  - first:
+      43: 4300004
+    second: Island 03
+  - first:
+      43: 4300006
+    second: Island 04
+  - first:
+      43: 4300008
+    second: Island 05
+  - first:
+      43: 4300010
+    second: Island 06
+  - first:
+      43: 4300012
+    second: Island 07
+  - first:
+      43: 4300014
+    second: Island 08
+  - first:
+      43: 4300016
+    second: Island 09
+  - first:
+      43: 4300018
+    second: Island 10
+  - first:
+      43: 4300020
+    second: Island 11
+  - first:
+      43: 4300022
+    second: Island 12
+  - first:
+      43: 4300024
+    second: Island 13
+  - first:
+      43: 4300026
+    second: Island 14
+  - first:
+      43: 4300028
+    second: Island 15
+  - first:
+      43: 4300030
+    second: Island 16
+  - first:
+      43: 4300032
+    second: Island 17
+  - first:
+      43: 4300034
+    second: Island 18
+  - first:
+      43: 4300036
+    second: Island 19
+  - first:
+      43: 4300038
+    second: Island 20
+  - first:
+      43: 4300040
+    second: Water Level
+  - first:
+      43: 4300042
+    second: Island 21
+  - first:
+      43: 4300044
+    second: Island 22
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -141,7 +383,7 @@ ModelImporter:
       name: Sand
     second: {fileID: 2100000, guid: 36cf94deba65e9c43bbb46573e3bc06e, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -174,25 +416,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -201,10 +450,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -214,13 +463,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 80
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

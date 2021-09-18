@@ -9,5 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/4th_Class_Maths_Roman_Numerals.unity
     guid: c1e725bea829bb74e8db484df503cff1
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8a9987bd78b77eb46ad1979668a629b0, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2022193aa49eff847b3f4c7e1ae4a597, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 052517c6ce37d034bafd5f506e92217e, type: 2}

@@ -1,105 +1,293 @@
 fileFormatVersion: 2
 guid: 6c973751200004544bf3d358bceec95b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Island 1
-    100002: Island 10
-    100004: Island 11
-    100006: Island 12
-    100008: Island 13
-    100010: Island 14
-    100012: Island 15
-    100014: Island 16
-    100016: Island 17
-    100018: Island 18
-    100020: Island 2
-    100022: Island 3
-    100024: Island 4
-    100026: Island 5
-    100028: Island 6
-    100030: Island 7
-    100032: Island 8
-    100034: Island 9
-    100036: //RootNode
-    400000: Island 1
-    400002: Island 10
-    400004: Island 11
-    400006: Island 12
-    400008: Island 13
-    400010: Island 14
-    400012: Island 15
-    400014: Island 16
-    400016: Island 17
-    400018: Island 18
-    400020: Island 2
-    400022: Island 3
-    400024: Island 4
-    400026: Island 5
-    400028: Island 6
-    400030: Island 7
-    400032: Island 8
-    400034: Island 9
-    400036: //RootNode
-    2100000: Sand
-    2100002: Grass
-    2300000: Island 1
-    2300002: Island 10
-    2300004: Island 11
-    2300006: Island 12
-    2300008: Island 13
-    2300010: Island 14
-    2300012: Island 15
-    2300014: Island 16
-    2300016: Island 17
-    2300018: Island 18
-    2300020: Island 2
-    2300022: Island 3
-    2300024: Island 4
-    2300026: Island 5
-    2300028: Island 6
-    2300030: Island 7
-    2300032: Island 8
-    2300034: Island 9
-    3300000: Island 1
-    3300002: Island 10
-    3300004: Island 11
-    3300006: Island 12
-    3300008: Island 13
-    3300010: Island 14
-    3300012: Island 15
-    3300014: Island 16
-    3300016: Island 17
-    3300018: Island 18
-    3300020: Island 2
-    3300022: Island 3
-    3300024: Island 4
-    3300026: Island 5
-    3300028: Island 6
-    3300030: Island 7
-    3300032: Island 8
-    3300034: Island 9
-    4300000: Island 9
-    4300002: Island 1
-    4300004: Island 2
-    4300006: Island 3
-    4300008: Island 4
-    4300010: Island 5
-    4300012: Island 6
-    4300014: Island 7
-    4300016: Island 8
-    4300018: Island 10
-    4300020: Island 11
-    4300022: Island 12
-    4300024: Island 13
-    4300026: Island 14
-    4300028: Island 15
-    4300030: Island 16
-    4300032: Island 17
-    4300034: Island 18
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Island 1
+  - first:
+      1: 100002
+    second: Island 10
+  - first:
+      1: 100004
+    second: Island 11
+  - first:
+      1: 100006
+    second: Island 12
+  - first:
+      1: 100008
+    second: Island 13
+  - first:
+      1: 100010
+    second: Island 14
+  - first:
+      1: 100012
+    second: Island 15
+  - first:
+      1: 100014
+    second: Island 16
+  - first:
+      1: 100016
+    second: Island 17
+  - first:
+      1: 100018
+    second: Island 18
+  - first:
+      1: 100020
+    second: Island 2
+  - first:
+      1: 100022
+    second: Island 3
+  - first:
+      1: 100024
+    second: Island 4
+  - first:
+      1: 100026
+    second: Island 5
+  - first:
+      1: 100028
+    second: Island 6
+  - first:
+      1: 100030
+    second: Island 7
+  - first:
+      1: 100032
+    second: Island 8
+  - first:
+      1: 100034
+    second: Island 9
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Island 1
+  - first:
+      4: 400002
+    second: Island 10
+  - first:
+      4: 400004
+    second: Island 11
+  - first:
+      4: 400006
+    second: Island 12
+  - first:
+      4: 400008
+    second: Island 13
+  - first:
+      4: 400010
+    second: Island 14
+  - first:
+      4: 400012
+    second: Island 15
+  - first:
+      4: 400014
+    second: Island 16
+  - first:
+      4: 400016
+    second: Island 17
+  - first:
+      4: 400018
+    second: Island 18
+  - first:
+      4: 400020
+    second: Island 2
+  - first:
+      4: 400022
+    second: Island 3
+  - first:
+      4: 400024
+    second: Island 4
+  - first:
+      4: 400026
+    second: Island 5
+  - first:
+      4: 400028
+    second: Island 6
+  - first:
+      4: 400030
+    second: Island 7
+  - first:
+      4: 400032
+    second: Island 8
+  - first:
+      4: 400034
+    second: Island 9
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: Sand
+  - first:
+      21: 2100002
+    second: Grass
+  - first:
+      23: 2300000
+    second: Island 1
+  - first:
+      23: 2300002
+    second: Island 10
+  - first:
+      23: 2300004
+    second: Island 11
+  - first:
+      23: 2300006
+    second: Island 12
+  - first:
+      23: 2300008
+    second: Island 13
+  - first:
+      23: 2300010
+    second: Island 14
+  - first:
+      23: 2300012
+    second: Island 15
+  - first:
+      23: 2300014
+    second: Island 16
+  - first:
+      23: 2300016
+    second: Island 17
+  - first:
+      23: 2300018
+    second: Island 18
+  - first:
+      23: 2300020
+    second: Island 2
+  - first:
+      23: 2300022
+    second: Island 3
+  - first:
+      23: 2300024
+    second: Island 4
+  - first:
+      23: 2300026
+    second: Island 5
+  - first:
+      23: 2300028
+    second: Island 6
+  - first:
+      23: 2300030
+    second: Island 7
+  - first:
+      23: 2300032
+    second: Island 8
+  - first:
+      23: 2300034
+    second: Island 9
+  - first:
+      33: 3300000
+    second: Island 1
+  - first:
+      33: 3300002
+    second: Island 10
+  - first:
+      33: 3300004
+    second: Island 11
+  - first:
+      33: 3300006
+    second: Island 12
+  - first:
+      33: 3300008
+    second: Island 13
+  - first:
+      33: 3300010
+    second: Island 14
+  - first:
+      33: 3300012
+    second: Island 15
+  - first:
+      33: 3300014
+    second: Island 16
+  - first:
+      33: 3300016
+    second: Island 17
+  - first:
+      33: 3300018
+    second: Island 18
+  - first:
+      33: 3300020
+    second: Island 2
+  - first:
+      33: 3300022
+    second: Island 3
+  - first:
+      33: 3300024
+    second: Island 4
+  - first:
+      33: 3300026
+    second: Island 5
+  - first:
+      33: 3300028
+    second: Island 6
+  - first:
+      33: 3300030
+    second: Island 7
+  - first:
+      33: 3300032
+    second: Island 8
+  - first:
+      33: 3300034
+    second: Island 9
+  - first:
+      43: 4300000
+    second: Island 9
+  - first:
+      43: 4300002
+    second: Island 1
+  - first:
+      43: 4300004
+    second: Island 2
+  - first:
+      43: 4300006
+    second: Island 3
+  - first:
+      43: 4300008
+    second: Island 4
+  - first:
+      43: 4300010
+    second: Island 5
+  - first:
+      43: 4300012
+    second: Island 6
+  - first:
+      43: 4300014
+    second: Island 7
+  - first:
+      43: 4300016
+    second: Island 8
+  - first:
+      43: 4300018
+    second: Island 10
+  - first:
+      43: 4300020
+    second: Island 11
+  - first:
+      43: 4300022
+    second: Island 12
+  - first:
+      43: 4300024
+    second: Island 13
+  - first:
+      43: 4300026
+    second: Island 14
+  - first:
+      43: 4300028
+    second: Island 15
+  - first:
+      43: 4300030
+    second: Island 16
+  - first:
+      43: 4300032
+    second: Island 17
+  - first:
+      43: 4300034
+    second: Island 18
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -132,25 +320,32 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -159,10 +354,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -172,13 +367,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 50
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

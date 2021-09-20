@@ -1,0 +1,808 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'de' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unity-workspace/Pineapple_Dragon_Math_VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62703
+Successfully changed project path to: C:/unity-workspace/Pineapple_Dragon_Math_VR
+C:/unity-workspace/Pineapple_Dragon_Math_VR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.01 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unity-workspace/Pineapple_Dragon_Math_VR/Assets
+[Subsystems] No descriptors matched for  examples in Assets/MeshingFeaturePlugin/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  inputs in Assets/MeshingFeaturePlugin/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  displays in Assets/MeshingFeaturePlugin/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Assets/MeshingFeaturePlugin/UnitySubsystemsManifest.json
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f50)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7196
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001948 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.30 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.81 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.536 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3779 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 4246.
+Total: 3.445000 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.171500 ms MarkObjects: 2.572500 ms  DeleteObjects: 0.388600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Dice_X.prefab
+  artifactKey: Guid(7e983b5163d09954eb8cc8e291e27605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_X.prefab using Guid(7e983b5163d09954eb8cc8e291e27605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdeb4a01aed91c914e0b50e88283eb') in 0.252210 seconds 
+  Import took 0.257586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefabs/Dice_M.prefab
+  artifactKey: Guid(5ed1fd2d58cfd7243a399dbc4e1ea865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_M.prefab using Guid(5ed1fd2d58cfd7243a399dbc4e1ea865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b05c4d942730c7aab90b5255c96edb') in 0.082648 seconds 
+  Import took 0.087996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Prefabs/Dice_V.prefab
+  artifactKey: Guid(4f03509ac8c0d9a4086674fea36596d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_V.prefab using Guid(4f03509ac8c0d9a4086674fea36596d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949d16c6136e51931fc558b4dca7e109') in 0.061013 seconds 
+  Import took 0.066064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.917407 seconds.
+  path: Assets/Prefabs/Dice_I.prefab
+  artifactKey: Guid(dee9feb4590a75449b17deda67434176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_I.prefab using Guid(dee9feb4590a75449b17deda67434176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5683730eec20172108dd1564fe8a326b') in 0.033432 seconds 
+  Import took 0.038642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.954845 seconds.
+  path: Assets/Prefabs/Control_Panel_2_Buttons.prefab
+  artifactKey: Guid(8c0423986c037ad489db247690154b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Control_Panel_2_Buttons.prefab using Guid(8c0423986c037ad489db247690154b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f31ba36a383dca2fdf3ea4110b70e6') in 0.106834 seconds 
+  Import took 0.112453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400837 seconds.
+  path: Assets/Prefabs/Dice_C.prefab
+  artifactKey: Guid(68f2fc3dc23a0024589c3684b2431924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_C.prefab using Guid(68f2fc3dc23a0024589c3684b2431924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697590ba04672b5af693a6ef6770af2e') in 0.038165 seconds 
+  Import took 0.043779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.301754 seconds.
+  path: Assets/Prefabs/Dice_D.prefab
+  artifactKey: Guid(2bbde10b4ea0d6846b68a0d8de6f53e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_D.prefab using Guid(2bbde10b4ea0d6846b68a0d8de6f53e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096804655887ec1087bf774aeaebed61') in 0.036102 seconds 
+  Import took 0.041653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 504.827908 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9018854acd3133f346a4d26bba8da1a0') in 0.016356 seconds 
+  Import took 0.023721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset_Packs/Low_Poly_Survival/VFX/Smoke.prefab
+  artifactKey: Guid(23ec89413081c90428211f56cee479cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Low_Poly_Survival/VFX/Smoke.prefab using Guid(23ec89413081c90428211f56cee479cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a98305297b6950fb10565a6b06c0ea0') in 0.009331 seconds 
+  Import took 0.014704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f554256cef6b545b3b53263dbee9937c') in 0.160291 seconds 
+  Import took 0.165139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a82f3a424f4faba4dd4a087c870b2d') in 0.026492 seconds 
+  Import took 0.031553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(052517c6ce37d034bafd5f506e92217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(052517c6ce37d034bafd5f506e92217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6376d055cff3140a8abc2cf88dd5a78') in 0.021143 seconds 
+  Import took 0.026451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Materials/Smoke.mat
+  artifactKey: Guid(2294328091a31fa4f86c33775e4c550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Materials/Smoke.mat using Guid(2294328091a31fa4f86c33775e4c550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c22b873da359d04bd51ca8b0da2ce7b') in 0.025203 seconds 
+  Import took 0.030746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211380 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 1.prefab
+  artifactKey: Guid(5a04d048cae45d448be9f6d383d52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 1.prefab using Guid(5a04d048cae45d448be9f6d383d52ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583ee264aa3b9f301bbf89ce2433df26') in 0.020208 seconds 
+  Import took 0.025530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 5.prefab
+  artifactKey: Guid(e819d04fc46aaf14fa5aed2dbb1c99be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 5.prefab using Guid(e819d04fc46aaf14fa5aed2dbb1c99be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6851b86aa4aa981e962e110f65453cc') in 0.015174 seconds 
+  Import took 0.020078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 3.prefab
+  artifactKey: Guid(425f6714985df40498425ec6fba08484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 3.prefab using Guid(425f6714985df40498425ec6fba08484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d90a09864324cea43c2eeb74ee5668b') in 0.012115 seconds 
+  Import took 0.016952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 15.prefab
+  artifactKey: Guid(cc3d01abbe6c0d64b8806f8b9be72947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 15.prefab using Guid(cc3d01abbe6c0d64b8806f8b9be72947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76692aaad969fdad3949d4632aeeccc') in 0.014384 seconds 
+  Import took 0.019481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 2.prefab
+  artifactKey: Guid(1ff0f141088d743439c5b6473169e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 2.prefab using Guid(1ff0f141088d743439c5b6473169e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17978e1dfd88b80ae8422845854b349c') in 0.011816 seconds 
+  Import took 0.017413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 18.prefab
+  artifactKey: Guid(294ccdc4e285d124fa13c921a9d25057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 18.prefab using Guid(294ccdc4e285d124fa13c921a9d25057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9706999b9518ab8cac45e1d82f734bff') in 0.016534 seconds 
+  Import took 0.023072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 13.prefab
+  artifactKey: Guid(a7a523f32e8363941acd4ea3a09ca293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 13.prefab using Guid(a7a523f32e8363941acd4ea3a09ca293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5609d37a9ae1c99f823fe65e0d07dde3') in 0.012409 seconds 
+  Import took 0.018051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 20.prefab
+  artifactKey: Guid(c62f1c113fe07ba42b18a856a8a2d3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 20.prefab using Guid(c62f1c113fe07ba42b18a856a8a2d3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce41ff89edcb547730b67013d3fa6ca') in 0.015073 seconds 
+  Import took 0.020536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 11.prefab
+  artifactKey: Guid(02f0d8a7e162c1f468f94e989c3d1416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 11.prefab using Guid(02f0d8a7e162c1f468f94e989c3d1416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f36f6b559f787d935314e9e804fbf3a') in 0.013749 seconds 
+  Import took 0.019187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 8.prefab
+  artifactKey: Guid(4d2589003a9d66f4ea0cc167929f54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 8.prefab using Guid(4d2589003a9d66f4ea0cc167929f54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c252ca45c5734d3d992c99895181e9') in 0.013534 seconds 
+  Import took 0.019151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 9.prefab
+  artifactKey: Guid(89be763a6f7b0214dbc764e564955c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 9.prefab using Guid(89be763a6f7b0214dbc764e564955c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8498580bb1d39d93cf0b7eec180aa490') in 0.011691 seconds 
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 12.prefab
+  artifactKey: Guid(e108bb479a2d19a4a83026f846596c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 12.prefab using Guid(e108bb479a2d19a4a83026f846596c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273dd90ad8dd2687646a7663cb1eb259') in 0.012652 seconds 
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 6.prefab
+  artifactKey: Guid(3e66386e33aad7648b2fc495e8f78d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 6.prefab using Guid(3e66386e33aad7648b2fc495e8f78d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959b4655559afc9a325a4e2c6d77aabe') in 0.011314 seconds 
+  Import took 0.016705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 19.prefab
+  artifactKey: Guid(2860420b3d5f44740b95ab424965ac97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 19.prefab using Guid(2860420b3d5f44740b95ab424965ac97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a5665beecb467bee5bad9016430da1') in 0.011356 seconds 
+  Import took 0.017170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 7.prefab
+  artifactKey: Guid(29db3d3d5f4659d42bd4aec9bcb316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 7.prefab using Guid(29db3d3d5f4659d42bd4aec9bcb316e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0c1dc002cd7c3863f5599429218c5d') in 0.011536 seconds 
+  Import took 0.016800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 10.prefab
+  artifactKey: Guid(a472d7a58b6fb1640844fe39c1e4535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 10.prefab using Guid(a472d7a58b6fb1640844fe39c1e4535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c915f5022790e1bc0b06854443cb0515') in 0.011983 seconds 
+  Import took 0.017444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 14.prefab
+  artifactKey: Guid(52a854651804c604d865f5016b7187d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 14.prefab using Guid(52a854651804c604d865f5016b7187d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e131724cec923d588a9660018adbe5') in 0.013116 seconds 
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 16.prefab
+  artifactKey: Guid(2114a72d683238c43918c49566460434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 16.prefab using Guid(2114a72d683238c43918c49566460434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573e2354c041c7c60fad5972770307e2') in 0.011880 seconds 
+  Import took 0.017311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 21.prefab
+  artifactKey: Guid(9feeb7bcf94f6f84185e35d0d3648328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 21.prefab using Guid(9feeb7bcf94f6f84185e35d0d3648328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117f99f31c39ccd21d647c88bcd25412') in 0.011957 seconds 
+  Import took 0.017674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 4.prefab
+  artifactKey: Guid(efbcddeb333cfd844a1b2a10335fbbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 4.prefab using Guid(efbcddeb333cfd844a1b2a10335fbbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b22ae999f83b26afdb163643ac773da') in 0.012862 seconds 
+  Import took 0.018220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 17.prefab
+  artifactKey: Guid(c9c26c65f81e32c4eab79d494b232764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset_Packs/Java - Low Poly Islands/Contents/Prefabs/Islands/Tropical Mountain Islands/Tropical Mountain Island 17.prefab using Guid(c9c26c65f81e32c4eab79d494b232764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9843ad1b413f5587698b1b62eaef83e0') in 0.012079 seconds 
+  Import took 0.017433 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.9 MB.
+System memory in use after: 194.5 MB.
+
+Unloading 119 unused Assets to reduce memory usage. Loaded Objects now: 4330.
+Total: 3.951800 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.279400 ms MarkObjects: 2.929600 ms  DeleteObjects: 0.425000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1597.766961 seconds.
+  path: Assets/Prefabs/Dice_Socket_Interactor.prefab
+  artifactKey: Guid(9effb1911b1607040a0605784e4dbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dice_Socket_Interactor.prefab using Guid(9effb1911b1607040a0605784e4dbdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f61d57d4b6214fa6da3b778a66f7fd') in 0.177644 seconds 
+  Import took 0.185362 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.0 MB.
+System memory in use after: 194.6 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4370.
+Total: 3.723500 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.165300 ms MarkObjects: 2.963700 ms  DeleteObjects: 0.299200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 194.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4374.
+Total: 3.739400 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.156000 ms MarkObjects: 2.940100 ms  DeleteObjects: 0.300300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1529.230859 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a22abf3a5a4faa927f987857c74637') in 0.072005 seconds 
+  Import took 0.079597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.806740 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc7ec1184ee972581673603d740bc2') in 0.012471 seconds 
+  Import took 0.018267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031865 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc7ec1184ee972581673603d740bc2') in 0.002448 seconds 
+  Import took 0.008042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.977684 seconds.
+  path: Assets/Settings/New Lighting Settings.lighting
+  artifactKey: Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Lighting Settings.lighting using Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '9cbd5a9c0a26fb0411d4630130a28a3d') in 0.007942 seconds 
+  Import took 0.013790 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 194.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4379.
+Total: 3.399300 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.643100 ms  DeleteObjects: 0.295800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1795.917504 seconds.
+  path: Assets/Settings/New Lighting Settings.lighting
+  artifactKey: Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Lighting Settings.lighting using Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '326132d7aa9040eb1985338ad58b17d4') in 0.032981 seconds 
+  Import took 0.039697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.725985 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b7f07b60b88200a405a91501eb2a2f') in 0.002649 seconds 
+  Import took 0.008637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005851 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b7f07b60b88200a405a91501eb2a2f') in 0.002759 seconds 
+  Import took 0.008995 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 194.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4384.
+Total: 3.462600 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.190600 ms MarkObjects: 2.652100 ms  DeleteObjects: 0.295800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 12.61 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.2 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4384.
+Total: 4.613300 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.179800 ms MarkObjects: 3.716900 ms  DeleteObjects: 0.365400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3358.083881 seconds.
+  path: Assets/Settings/New Lighting Settings.lighting
+  artifactKey: Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Lighting Settings.lighting using Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: '2c9e87315251ce8867b1eaf823b2a523') in 0.061887 seconds 
+  Import took 0.069116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.028895 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47da7ad1be9368dec99437e115342a6f') in 0.005844 seconds 
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\unity-workspace\Pineapple_Dragon_Math_VR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395206) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.2 MB.
+System memory in use after: 194.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 4389.
+Total: 3.478200 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.681500 ms  DeleteObjects: 0.301400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 465.530528 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(90386d71b6a758d49a1a01aac63cbd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183541812fdb55202ca3181e3d25989b') in 0.033132 seconds 
+  Import took 0.046550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.814007 seconds.
+  path: Assets/Settings/New Lighting Settings.lighting
+  artifactKey: Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Lighting Settings.lighting using Guid(af3aa824fca812d4e8c758f7b7ef0c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
+ -> (artifact id: 'e8734d3f0540598c2e660115be50e258') in 0.002829 seconds 
+  Import took 0.009222 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 8.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.2 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4390.
+Total: 4.521900 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.165100 ms MarkObjects: 3.692500 ms  DeleteObjects: 0.320300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
